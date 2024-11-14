@@ -1,14 +1,10 @@
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
 }
 
-.top{
-    font-size: 2.5em;
-    color: rgb(255, 255, 255);
-}
-
-header{
+header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: rgb(60, 60, 60);
@@ -16,14 +12,12 @@ header{
     margin-top: 0;
 }
 
-
-nav{
+nav {
     display: flex;
     justify-content: space-around;
 }
 
-nav a{
-
+nav a {
     text-decoration: none;
     color: white;
     padding: 20px;
@@ -35,100 +29,95 @@ nav a:hover {
     background-color: rgb(109, 109, 109);
 }
 
-main{
-    padding: 20px;
-}
-
-.home-text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
-.intro{
-    background-color: #878787;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
-}
-
-p{
-    font-size: 1.5em;
-}
-
-.Home{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.home-img{
-    text-align: center;
-}
-
-.home-img .image{
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image{
+/* Home Section */
+.home-img .image {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 25%;
+    width: 100%; /* Allow images to be full width */
 }
 
-h2{
-    text-align: center;
-}
-
-/*Rooms*/
-
-h3{
-    font-weight: bolder;
-}
-
-.Rooms{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
+/* Rooms Section */
 .all-cards {
-    position: center;
-    display:inline-flex;  
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-between;
 }
 
-.card-body, .card-text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2vw;
-}
-
-/*Menu*/
-.Menu {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-table {
+.card {
     width: 100%;
-    border-spacing: 0 !important;
-    table-layout: fixed !important;
-    border: 1.5px solid rgb(0, 0, 0) !important;
-    margin-bottom: 20px;
-    border-radius: 8px; 
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 540px;
+    margin: 0 auto;
 }
 
-table thead{
-    background-color: #dddddd;
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-th, td {
-    border: 1px solid rgb(0, 0, 0) !important;
-    padding: 10px !important;
-    text-align: center !important;
-    word-wrap: break-word !important;
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
 }
