@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binaca Girls Hostel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="main.js"></script>
 </head>
 <body>
     <header>
         <h1 class="top">Binaca Girls Hostel</h1><hr>
         <nav>
             <a href="#Home">Home</a>
-            <a href="#Rooms">Room</a>
+            <a href="#Rooms">Rooms</a>
             <a href="#Menu">Menu</a>
             <a href="#Accommodation">Accommodation</a>
             <a href="#Contact-Us">Contact Us</a>
@@ -22,11 +23,13 @@
     
     <main>
         <section class="home-text">
-            <div class="intro" >
+            <div class="intro">
                 <h2>Welcome To Binaca Girls Hostel</h2>
                 <p>Welcome to Binaca Girls Hostel, where we offer cozy accommodation with all the comforts you need. Enjoy free Wi-Fi, laundry services, and a variety of room options in a safe, friendly environment that feels just like home!</p>
             </div>
         </section>
+
+        <!-- Home Section with Slideshow -->
         <section id="Home" class="Home">
             <div class="home-img">
                 <img class="image" src="img1.jpg" alt="img1">
@@ -34,72 +37,71 @@
                 <img class="image" src="img3.jpg" alt="img3">
             </div><hr>
         </section>
+                                                
+        <!-- Rooms Section -->
         <section id="Rooms" class="Rooms">
             <h2>Rooms</h2>
-            <div class="all-cards">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+            <div class="all-cards d-flex justify-content-between">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="/img1.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img1.jpg" class="img-fluid rounded-start" alt="Two Seater Room">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                            <h3 class="card-title">Two Seater Room</h3>
-                            <p class="card-text">
+                                <h3 class="card-title">Two Seater Room</h3>
                                 <ul>
                                     <li>Furnished</li>
                                     <li>Attached Bath</li>
                                     <li>Rs. 16,000</li>
                                 </ul>
-                            </p>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="/img1.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img1.jpg" class="img-fluid rounded-start" alt="Three Seater Room">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                            <h3 class="card-title">Three Seater Room</h3>
-                            <p class="card-text">
+                                <h3 class="card-title">Three Seater Room</h3>
                                 <ul>
                                     <li>Furnished</li>
                                     <li>Attached Bath</li>
                                     <li>Rs. 15,000</li>
                                 </ul>
-                            </p>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="/img3.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img3.jpg" class="img-fluid rounded-start" alt="Four Seater Room">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                            <h3 class="card-title">Four Seater Room</h3>
-                            <p class="card-text">
+                                <h3 class="card-title">Four Seater Room</h3>
                                 <ul>
                                     <li>Furnished</li>
                                     <li>Attached Bath</li>
                                     <li>Rs. 13,000</li>
                                 </ul>
-                            </p>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
             </div>
         </section>
+
+        <!-- Menu Section -->
         <section id="Menu" class="Menu">
-            <h2>Menu</h2>
-            <h1>WEEKLY FOOD MENU</h1>
-            <table class="table">
+            <h2>Weekly Food Menu</h2>
+            <table class="table table-bordered text-center">
                 <thead>
                     <tr>
                         <th>Time</th>
@@ -122,7 +124,35 @@
                 </tbody>
             </table>
         </section>
+
+        <!-- Accommodation Section -->
+        <section id="Accommodation" class="Accommodation">
+            <hr>
+            <h2>Accommodation</h2>
+            <div class="span-container d-flex justify-content-center">
+                <span>Free Wi-Fi</span>
+                <span>Laundry</span>
+                <span>Furnished</span>
+                <span>More</span>
+                <span>More</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section id="Contact-Us" class="Contact-Us"><hr>
+            <h2>Contact Us</h2>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <a href="https://wa.me/923215793354" target="_blank">+92-321-5793354</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Commercial Market, B Block, Malik Aloo Pratha</p>
+            </div>
+        </section>
         
-    </main>  
+    </footer>
 </body>
 </html>
