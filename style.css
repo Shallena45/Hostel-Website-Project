@@ -121,3 +121,618 @@ nav a:hover {
         font-size: 0.8em;
     }
 }
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    transition: 0.7s;
+    background-color: rgb(109, 109, 109);
+}
+
+/* Home Section */
+.home-img .image {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Allow images to be full width */
+}
+
+/* Rooms Section */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    transition: 0.7s;
+    background-color: rgb(109, 109, 109);
+}
+
+/* Home Section */
+.home-img .image {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Allow images to be full width */
+}
+
+/* Rooms Section */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    transition: 0.7s;
+    background-color: rgb(109, 109, 109);
+}
+
+/* Home Section */
+.home-img .image {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Allow images to be full width */
+}
+
+/* Rooms Section */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    transition: 0.7s;
+    background-color: rgb(109, 109, 109);
+}
+
+/* Home Section */
+.home-img .image {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Allow images to be full width */
+}
+
+/* Rooms Section */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    padding: 1rem;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    transition: 0.7s;
+    background-color: rgb(109, 109, 109);
+}
+
+/* Home Section */
+.home-img .image {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Allow images to be full width */
+}
+
+/* Rooms Section */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Accommodation Section */
+.span-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        padding: 1rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Content */
+    main {
+        padding: 10px;
+    }
+    
+    /* Rooms Section - Cards */
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Table in Menu Section */
+    table {
+        font-size: 0.9em;
+    }
+
+    /* Accommodation Bubbles */
+    span {
+        padding: 20px;
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer Contact Section */
+    .contact-item {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Section Image Adjustments */
+    .home-img .image {
+        width: 100%;
+    }
+
+    /* Menu Section Table */
+    table {
+        font-size: 0.8em;
+    }
+}
